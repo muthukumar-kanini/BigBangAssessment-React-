@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #333; /* Replace with your desired color */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* Replace with your desired text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #aaa; /* Replace with your desired hover color */
+  }
+  

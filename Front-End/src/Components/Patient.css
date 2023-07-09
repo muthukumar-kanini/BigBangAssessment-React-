@@ -1,0 +1,110 @@
+.patient-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .patient-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .patient-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .patient-card-body {
+    margin-top: 10px;
+  }
+  
+  .patient-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .patient-card-actions button {
+    margin-left: 5px;
+  }
+  
+  .editable-field {
+    margin-bottom: 10px;
+  }
+  
+  .editable-field label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .editable-field input {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .non-editable-field {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    justify-content: space-between;
+    margin-right: 50px;
+  }
+  
+  
+  
+  .card {
+    width: calc(25% - -100); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+   margin-top: 30px;
+  }
+  
+  .field {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .field-label {
+    font-weight: bold;
+  }
+  
+  .field:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .edit-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,50 @@
+.cardabc {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    }
+
+    .marginclass{
+        padding: 30px;
+    }
+
+    .updateicon,
+    .deleteicon{
+        background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+    }
+
+    .deleteicon{
+        background-color: #dc3545;
+    }
+    
+    .card-img-topabc {
+    object-fit: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    }
+    
+    .card-bodyabc {
+    padding: 10px;
+    }
+    
+    .card-titleabc {
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    .card-textabc {
+    font-size: 14px;
+    }
+    
+    .card-footerabc {
+    padding: 10px;
+    text-align: center;
+    }

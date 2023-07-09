@@ -1,0 +1,100 @@
+.pending-doctor-card {
+    width: 450px;
+    background-color: #a30c0c;
+    border: 2px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-left: 250px;
+    margin-right: auto;
+    padding-top: 5px;
+    margin-top: 30px;
+    font-family: "Arial", sans-serif;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .pending-doctor-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .approved-doctor-card {
+    width: 450px;
+    background-color: #008000;
+    border: 2px solid #dcdcdc;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-left: 250px;
+    margin-right: auto;
+    padding-top: 5px;
+    margin-top: 30px;
+    font-family: "Arial", sans-serif;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .approved-doctor-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* .card-item {
+    width: 48%;
+    background-color: #b60404;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+  } */
+  
+  .card-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-item h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .card-item p {
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  
+  .card-item p:first-child {
+    color: #dcdcdc;
+    font-weight: bold;
+  }
+  
+  .card-item p:last-child {
+    color: #dcdcdc;
+  }
+  
+  .approve-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .approve-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
